@@ -1,0 +1,3 @@
+HANDS
+F:\MCO\mco-svn\Cihan\LIGUM\assimp\test\hands.dae
+F:\MCO\mco-svn\Cihan\LIGUM\assimp\code\assimpBased\assimpBased
