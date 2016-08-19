@@ -65,8 +65,8 @@ void SkeletonMesh::getStructureInfo(map<int, bool>& normalBoneIndices, std::vect
 					boneStructure.push_back(std::pair<int, int>(bi, si));	// If child is in the structure, make a pair.
 
 					// Mark pairs as safe to use
-					normalBoneIndices.insert(std::map<int, int>::value_type(bi, true));
-					normalBoneIndices.insert(std::map<int, int>::value_type(si, true));
+					normalBoneIndices.insert(std::map<int, bool>::value_type(bi, true));
+					normalBoneIndices.insert(std::map<int, bool>::value_type(si, true));
 
 					break;
 				}

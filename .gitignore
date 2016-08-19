@@ -40,8 +40,21 @@ $RECYCLE.BIN/
 .VolumeIcon.icns
 
 # Directories potentially created on remote AFP share
+dependencies/assimp_export-VS2013/* 
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
+code/assimpBased/assimpBased.sdf
+*.bp
+code/assimpBased/assimpBased/HANDS_Cube.004.bs
+*.bw
+*.fi
+*.vi
+*.ni
+*.bs
+*.manifest
+*.lastbuildstate
+*.tlog
+*.7z
