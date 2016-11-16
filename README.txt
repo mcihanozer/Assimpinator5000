@@ -1,21 +1,10 @@
 M. Cihan Ozer - Aug. 2016, Montreal
-	mco@mcihanozer.com
+
 	^-_-^
-Quote of the Day: "No! No, see, this is the fundamental flaw with the check check-plus check-minus system!
-The only reason Token was able to do all that is because his family is rich!"
-
-
-NAME:
-
-As always, I did not care and could not come up about/with a name when I start to right this program.
-So, I am naming it as Assimpinator5000.
 
 PURPOSE:
 
 This program reads meshes using Assimp library and then serialize them into bunch of different files.
-Thus, instead of writing/adding bunch of mesh reader functions for
-different mesh extensions or handling Assimp library on your own, you can use this program, and write
-a C++ code that reads binary files to load the meshes.
 
 FLOW:
 
@@ -71,10 +60,4 @@ WARNING:
 
 There might be some bugs, because I did not consider every possible scenario for now. For exmaple, I do not care whether
 Assimp divides a single mesh into bunch of meshes or not. Because, currently
-all the meshes I am using does not create this problem.
-
-FUTURE:
-
-Right now, this program is like this because, this is enough for  me. But, when I need more, I will add more. In the and,
-it will become a complete program that considers everything and generates
-a good file -ideally single or mesh, bone, animation etc. .
+all the meshes I am using does not create this problem. When I need more, I will add more. In the and, it will become a complete program that considers everything and generates a good, general mesh file.
